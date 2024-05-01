@@ -67,16 +67,16 @@ Help index
 [Subtitle Edit main window - edit original](#main_edit_original)  
 [Video/wave form modes](#video_modes)  
 [Wave form](#waveform)  
-[Export](#export)  
+[Export](#Export)  
 [Synchronization](#Synchronization)  
-[Visual sync](#visual_sync)  
-[Translation (auto)](#translation)  
-[Fix common errors](#fixcommonerrors)  
-[Remove text for hearing impaired](#remove_text_for_hi)  
-[Spell check](#spellcheck)  
-[Import/OCR image based subtitles - like DVD Sub/idx or Blu-ray sup](#importvobsub)  
+[Visual sync](#Visual-sync)  
+[Auto-translation](#Auto-translation)  
+[Fix common errors](#Fix-common-errors)  
+[Remove text for hearing impaired](#remove-text-for-hearing-impaired)  
+[Spell check](#Spell-check)  
+[Import/OCR image based subtitles - like DVD Sub/idx or Blu-ray sup](#Import/OCR-image-based-subtitles---like-DVD-Sub/idx-or-Blu-ray-sup)  
 [Edit Blu-ray sup/TS-images/BdnXml image based subtitles](#bdsupedit)  
-[Settings](#settings)  
+[Settings](#Settings)  
 [\- Shortcuts](#shortcuts)  
 [\- Video player](#settings_video)  
 [\- Tools](#settings_tools)  
@@ -424,8 +424,8 @@ Note: You cannot use waveform without the video or the audio.
   
   
 
-Export
-------
+## Export
+
 
 Subtitle Edit can save via "Save as..." in many different text formats, but if you want to save a subtitle in a binary format (like pac or 890) or an image based format (like png or Blu-ray sup) you must use File -> Export.  
   
@@ -467,7 +467,7 @@ Change frame rate: This makes it easy to match text from a video with one frame 
   
   
 
-Visual sync
+## Visual sync
 -----------
 
 ![Visual Sync controls](/gfx/vissync.png)
@@ -486,8 +486,8 @@ In some cases a subtitle is impossible to synchronize because one or more scenes
 
   
 
-Translation (auto)
-------------------
+## Translation (auto)
+
 
 Subtitle Edit can translate a subtitle by using [Google translate](https://translate.google.com), [Bing Microsoft translator](https://www.bing.com/translator), or [Facebook's NLLB (No Language Left Behind)](https://huggingface.co/docs/transformers/model_doc/nllb).  
 Automatic translation works fairly well, but translated subtitles will still need manual correction (hint: use main window [translate mode](#video_modes)).  
@@ -543,8 +543,8 @@ Also do check the translate plug-ins, see **File -> Plugins**.
 
   
 
-Fix common errors
------------------
+## Fix common errors
+
 
   
 ![Fix common errors](/gfx/help_fixcommonerrors1.png)  
@@ -564,8 +564,8 @@ The "Apply selected fixes" button applies the fixes.
 * * *
 
   
-**Remove text for hearing impaired**  
-  
+## Remove text for hearing impaired
+
 Many subtitles include text for hearing impaired (also known as "[SDH](https://en.wikipedia.org/wiki/Subtitle_%28captioning%29#SDH)" in the American movie industry which is an initialism for "Subtitles for the deaf or hard-of-hearing").  
 For people with perfect hearing (and no noisy kids) these texts can be annoying - and easily removed with **Tools -> Remove text for hearing impaired**.  
   
@@ -578,7 +578,7 @@ You can also remove [interjections](https://en.wikipedia.org/wiki/Interjection) 
 * * *
 
   
-**Spell check**  
+## Spell check
   
 Spell check uses [Hunspell](http://hunspell.sourceforge.net/) (which is also used by Open/LibraOffice, Firefox, Chrome, and Opera).  
 Only English dictionary is included, but you can easily find more dictionaries via the toolbar menu _Spell check_ -> _Get dictionaries..._!  
@@ -599,8 +599,7 @@ All buttons in the "Word not found" groupbox will use the word in the "Word not 
 
   
 
-Import/OCR image based subtitles - like DVD Sub/idx or Blu-ray sup
-------------------------------------------------------------------
+## Import/OCR image based subtitles - like DVD Sub/idx or Blu-ray sup
 
   
   
@@ -686,9 +685,7 @@ In **File - Save as...** you can save as **Blu-ray sup** or **BdnXml**.
   
   
 
-Settings
---------
-
+## Settings
   
 
 In Settings you can adjust how Subtitle Edit will behave, so it's pretty important to take a look at these settings - especially single line maximum length and maximum characters per second as these settings will be used throughout all functionality, like "Fix common error" and other tools like syntax coloring in the main window list view (see the "Syntax coloring" settings for adjustments).  
