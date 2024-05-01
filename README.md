@@ -9,8 +9,8 @@ Mini FAQ
 --------
 
 Q: When I try to open a video in format "...", SE cannot play video or there's no sound. What do I do?  
-A: Try [setting up MPV as your video player](/subtitleedit/help#settings_video).  
-Also be sure that you have [maximized the sound in SE](/assets/SubtitleEdit/no_audio1.png) and [maximized the sound in Windows](/assets/SubtitleEdit/no_audio2.png).  
+A: Try [setting up MPV as your video player](#settings_video).  
+Also be sure that you have [maximized the sound in SE](/gfx/no_audio1.png) and [maximized the sound in Windows](/gfx/no_audio2.png).  
   
 Q: Is it possible to move a subtitle to the top of the screen?  
 A: Yes, right-click on selected lines in the list view and choose **Alignment...**, and then choose e.g. **Top center**.  
@@ -62,39 +62,39 @@ A: Please add the following:
 Help index
 ----------
 
-[Subtitle Edit main window](/subtitleedit/help#main)  
-[Subtitle Edit main window - resize/un-dock](/subtitleedit/help#main_resize)  
-[Subtitle Edit main window - edit original](/subtitleedit/help#main_edit_original)  
-[Video/wave form modes](/subtitleedit/help#video_modes)  
-[Wave form](/subtitleedit/help#waveform)  
-[Export](/subtitleedit/help#export)  
-[Synchronization](/subtitleedit/help#sync)  
-[Visual sync](/subtitleedit/help#visual_sync)  
-[Translation (auto)](/subtitleedit/help#translation)  
-[Fix common errors](/subtitleedit/help#fixcommonerrors)  
-[Remove text for hearing impaired](/subtitleedit/help#remove_text_for_hi)  
-[Spell check](/subtitleedit/help#spellcheck)  
-[Import/OCR image based subtitles - like DVD Sub/idx or Blu-ray sup](/subtitleedit/help#importvobsub)  
-[Edit Blu-ray sup/TS-images/BdnXml image based subtitles](/subtitleedit/help#bdsupedit)  
-[Settings](/subtitleedit/help#settings)  
-[\- Shortcuts](/subtitleedit/help#shortcuts)  
-[\- Video player](/subtitleedit/help#settings_video)  
-[\- Tools](/subtitleedit/help#settings_tools)  
-[\- Appearance](/subtitleedit/help#settings_font)  
-[Bookmarks](/subtitleedit/help#bookmarks)  
-[Generate background box (for Advanced Sub Station Alpha)](/subtitleedit/help#assa_bg_box)  
-[Translating Subtitle Edit to another language](/subtitleedit/help#translate)  
-[Networking - online collaboration](/subtitleedit/help#networking)  
-[Beautify time codes](/subtitleedit/help#beautify_time_codes)  
-[Batch convert via UI](/subtitleedit/help#batchconvert)  
-[Audio to text (Whisper/Vosk)](/subtitleedit/help#audio_to_text)  
-[Text to speech](/subtitleedit/help#text_to_speech)  
-[Command line conversion](/subtitleedit/help#commandline)  
-[Portable version and VLC](/subtitleedit/help#portable)  
-[Make your own plugin](/subtitleedit/help#plugins)  
-[Subtitle Edit on Linux](/subtitleedit/help#linux)  
-[Compiling Subtitle Edit](/subtitleedit/help#compile)  
-[Known issues](/subtitleedit/help#issues)  
+[Subtitle Edit main window](#Menu-in-main-window)  
+[Subtitle Edit main window - resize/un-dock](#main_resize)  
+[Subtitle Edit main window - edit original](#main_edit_original)  
+[Video/wave form modes](#video_modes)  
+[Wave form](#waveform)  
+[Export](#export)  
+[Synchronization](#Synchronization)  
+[Visual sync](#visual_sync)  
+[Translation (auto)](#translation)  
+[Fix common errors](#fixcommonerrors)  
+[Remove text for hearing impaired](#remove_text_for_hi)  
+[Spell check](#spellcheck)  
+[Import/OCR image based subtitles - like DVD Sub/idx or Blu-ray sup](#importvobsub)  
+[Edit Blu-ray sup/TS-images/BdnXml image based subtitles](#bdsupedit)  
+[Settings](#settings)  
+[\- Shortcuts](#shortcuts)  
+[\- Video player](#settings_video)  
+[\- Tools](#settings_tools)  
+[\- Appearance](#settings_font)  
+[Bookmarks](#bookmarks)  
+[Generate background box (for Advanced Sub Station Alpha)](#assa_bg_box)  
+[Translating Subtitle Edit to another language](#translate)  
+[Networking - online collaboration](#networking)  
+[Beautify time codes](#beautify_time_codes)  
+[Batch convert via UI](#batchconvert)  
+[Audio to text (Whisper/Vosk)](#audio_to_text)  
+[Text to speech](#text_to_speech)  
+[Command line conversion](#commandline)  
+[Portable version and VLC](#portable)  
+[Make your own plugin](#plugins)  
+[Subtitle Edit on Linux](#linux)  
+[Compiling Subtitle Edit](#compile)  
+[Known issues](#issues)  
 
   
 
@@ -112,7 +112,7 @@ Subtitle Edit main window
 In the menu you can find many tools like change casing, split, append, spell check, synchronization, change frame rate, Google translate, find, replace, remove text for hearing impaired, and much more!  
 You can import subtitles from Blu-ray sup, transport streams, DVD, vobsub, text and images - even subtitles inside Matroska files can be imported.  
   
-![Menu](/assets/SubtitleEdit/main_menu.png)  
+![Menu](/gfx/main_menu.png)  
   
 NOTE: Many tools are also available via right click in the list view.  
   
@@ -124,7 +124,7 @@ Png files (32x32 pixels) with these names are used if exists: New, Open, Save, S
 
 ### Subtitle/file formats
 
-![Subtitle format](/assets/SubtitleEdit/FormatAndEncoding.png)  
+![Subtitle format](/gfx/FormatAndEncoding.png)  
   
 In the top menu you can choose format and encoding. The first dropdown list shows subtitle formats. SubRip (extension is ".srt") is the most widely used format today, so it is recommended to save subtitles in this format.  
 Originally SubRip was a text only format, but in recent years html tags have been common. Especially the italic and font tags are widely used. For a list of SubRip support in players [check this out](https://ale5000.altervista.org/subtitles.htm).  
@@ -133,14 +133,14 @@ File encoding is auto detected in most cases. ANSI is the old, formerly the most
 If you have an ANSI file in another language than the current culture/language (or you have an invalid UTF/Unicode file) then you can use the menu item: _File_ -> _Import subtitle with manual chosen encoding_.  
   
 _Import subtitle with manual chosen encoding_ with preview:  
-![ChooseEncoding](/assets/SubtitleEdit/ChooseEncoding.gif)
+![ChooseEncoding](/gfx/ChooseEncoding.gif)
 
   
   
 
 ### Frame rate
 
-![Frame rate](/assets/SubtitleEdit/help_framerate.png)  
+![Frame rate](/gfx/help_framerate.png)  
   
 Frame rate is not displayed by default, but you can enable it via the menu _Options_ -> _Settings: Toolbar: Show frame rate in toolbar_.  
 Frame rate is used when converting between subtitle formats based on frames and formats based on time. SubRip is based on time. MicroDvd (widely used 7-9 years ago, and still widely used in some countries) is based on frames.  
@@ -157,7 +157,7 @@ You can switch between list view and source view with the F2 key or via the cont
 
 **List view** is the default. This view is column based and has customizable columns:
 
-![List view](/assets/SubtitleEdit/help_listview.png)
+![List view](/gfx/help_listview.png)
 
 The list view gives an excellent overview of the subtitle - the same for all formats.  
 You can edit text and time codes here, delete and insert lines easily.  
@@ -170,14 +170,14 @@ To select multiple lines in a block, select the first one, and then <Shift+click
   
 It is also possible to select several lines and use tools like _Google translate_ or _Visual sync_ on the selected lines.  
   
-![Listview](/assets/SubtitleEdit/help_listview2.png)
+![Listview](/gfx/help_listview2.png)
 
   
   
 
 **Source view** (F2 toggles between source view and list view):
 
-![Source view](/assets/SubtitleEdit/help_sourceview.png)
+![Source view](/gfx/help_sourceview.png)
 
 This is how the subtitle file actually looks - different for all formats.  
 You can edit text and time codes here, but be careful - it's easy to mess things up.  
@@ -194,7 +194,7 @@ Above the text box where you can type the actual subtitle is a label called "Cha
 If it's higher than your max CPS (CPS=Characters Per Second, e.g. 25), it will be colored red.  
   
 
-![Text box](/assets/SubtitleEdit/TextBox.png)  
+![Text box](/gfx/TextBox.png)  
   
 Below the text box is a label called "Single line length". First line is 32 characters and second line is 28 characters.  
 If this label turns red, then one of the lines has exceeded your single line max length.  
@@ -213,7 +213,7 @@ You can change the max number of lines to e.g. 3 in Options - Settings - General
 The main window can show video and/or wave form. Video controls can even be un-docked - nice if you have two monitors!  
 The horizontal/vertical red lines shows where you can resize inside the main window (via splitters).  
   
-![Main window - with video/waveform](/assets/SubtitleEdit/main_video1.png)
+![Main window - with video/waveform](/gfx/main_video1.png)
 
   
   
@@ -221,7 +221,7 @@ The horizontal/vertical red lines shows where you can resize inside the main win
 When editing both original and translated subtitle, changing start time/duration/deleting/inserting will affect both subtitles!  
 In Options - Settings - Shortcuts, you can find shortcuts for toggle original subtitle and switching translated / original subtitle.  
   
-![Main window - with video/waveform](/assets/SubtitleEdit/main_edit_original.png)
+![Main window - with video/waveform](/gfx/main_edit_original.png)
 
   
   
@@ -230,10 +230,10 @@ In Options - Settings - Shortcuts, you can find shortcuts for toggle original su
 
 The play rate can be adjusted from a slow 50% to a very fast 300% via the green double arrow in the waveform controls or via shortcuts.  
 The play rate will not be remembered when re-starting Subtitle Edit.  
-When the play rate is not 100% (which is normal speed), the green double arrow will have a darker background - like this: ![Play rate changed](/assets/SubtitleEdit/play_rate_changed.png)  
+When the play rate is not 100% (which is normal speed), the green double arrow will have a darker background - like this: ![Play rate changed](/gfx/play_rate_changed.png)  
 .
 
-![Play rate](/assets/SubtitleEdit/play_rate.png)  
+![Play rate](/gfx/play_rate.png)  
   
 
 * * *
@@ -246,7 +246,7 @@ When the play rate is not 100% (which is normal speed), the green double arrow w
 
 You can search by pressing Ctrl+F (F3 is find next). Regular expression search is available for nerds ;)
 
-![Search](/assets/SubtitleEdit/help_search.png)  
+![Search](/gfx/help_search.png)  
   
 
 * * *
@@ -324,7 +324,7 @@ You can test/build regular expressions on many web pages, like [http://regexstor
 If the result of a replace rule is an empty string, the subtitle will be removed.  
   
 
-![Multiple replace](/assets/SubtitleEdit/main_edit_multiple_replace.png)  
+![Multiple replace](/gfx/main_edit_multiple_replace.png)  
   
 
 * * *
@@ -339,7 +339,7 @@ When using video and/or wave form three different modes (tabs) are available: Tr
 
 ### Translate mode
 
-![Translate mode](/assets/SubtitleEdit/mode_translate.png)  
+![Translate mode](/gfx/mode_translate.png)  
   
 In translate mode you can translate a subtitle from one language to another manually (or correct a machine translated subtitle) while watching the video - and hearing the audio.  
 If "Auto repeat" is on, then the subtitle will be repeated x-times while you are typing in the correct text.  
@@ -350,7 +350,7 @@ Hint: Do use the <alt+arrow up/down> for going to previous/next subtitle.
 
 ### Create mode
 
-![Create/adjust lines](/assets/SubtitleEdit/mode_create.png)  
+![Create/adjust lines](/gfx/mode_create.png)  
   
 This is the place to create subtitle lines from scratch or manually adjust existing lines.  
   
@@ -363,7 +363,7 @@ You can also right click on the audio wave form or in the list view to insert/me
 
 ### Adjust mode
 
-![Adjust mode](/assets/SubtitleEdit/mode_adjust.png)  
+![Adjust mode](/gfx/mode_adjust.png)  
   
 This is the place to adjust existing lines.  
   
@@ -380,16 +380,16 @@ Wave form
 ---------
 
 The wave form control makes it easy to see exactly where speech starts/ends.  
-![Wave form](/assets/SubtitleEdit/Waveform1.png)  
+![Wave form](/gfx/Waveform1.png)  
   
   
 With the right click menu, you can split/merge/delete subtitles.  
-![Wave form - right click menu](/assets/SubtitleEdit/Waveform2.png)  
+![Wave form - right click menu](/gfx/Waveform2.png)  
   
   
 To create a new paragraph, make a new selection with the mouse and press **Enter**  
 (or right click + choose "Add text here").  
-![Wave form - new selection](/assets/SubtitleEdit/Waveform3.png)  
+![Wave form - new selection](/gfx/Waveform3.png)  
   
 
 ### Wave form mouse/keys usage:
@@ -409,7 +409,7 @@ To create a new paragraph, make a new selection with the mouse and press **Enter
 *   Mouse single click+Alt will set start for selected line (and keep duration)
 *   Mouse double click on non-paragraph - toggle play
 *   **Mouse single click+Ctrl+Shift will set of start selected line + offset all lines after selected line (keeping durations)**
-*   Holding down ALT when moving start/end will move nearest subtitle start/end too if it's closer than 500 milliseconds - [like this.](/assets/SubtitleEdit/WaveformMoveNextPrev.gif)
+*   Holding down ALT when moving start/end will move nearest subtitle start/end too if it's closer than 500 milliseconds - [like this.](/gfx/WaveformMoveNextPrev.gif)
 
   
 
@@ -437,7 +437,7 @@ These tags are preserved when exporting a subtitle to an image based format:
 *   **&123;\\an1&125;**\-**&123;\\an9&125;** - alignment tags
 *   ASSA (Advanced Sub Station alpha) or SSA styles like color, font size and box (only ASSA has color alpha/translucency)
 
-![Export screenshot](/assets/SubtitleEdit/help_export.png)  
+![Export screenshot](/gfx/help_export.png)  
 Note: Arabic might require "Simple rendering".  
 Note: SE requires TTS fonts, and does not support OTF font files.  
 
@@ -445,10 +445,10 @@ Note: SE requires TTS fonts, and does not support OTF font files.
 
   
 
-Synchronization
+# Synchronization
 ---------------
 
-![Sync menu](/assets/SubtitleEdit/SyncMenu.png)
+![Sync menu](/gfx/SyncMenu.png)
 
   
 Subtitle Edit offers several ways to synchronize subtitles.  
@@ -470,7 +470,7 @@ Change frame rate: This makes it easy to match text from a video with one frame 
 Visual sync
 -----------
 
-![Visual Sync controls](/assets/SubtitleEdit/vissync.png)
+![Visual Sync controls](/gfx/vissync.png)
 
   
 Visual sync is a really easy way to synchronize a subtitle with a video file.  
@@ -536,7 +536,7 @@ ollama pull llama3
   
 Also do check the translate plug-ins, see **File -> Plugins**.  
   
-![Create/add lines](/assets/SubtitleEdit/help_googletranslate.png)  
+![Create/add lines](/gfx/help_googletranslate.png)  
   
 
 * * *
@@ -547,14 +547,14 @@ Fix common errors
 -----------------
 
   
-![Fix common errors](/assets/SubtitleEdit/help_fixcommonerrors1.png)  
+![Fix common errors](/gfx/help_fixcommonerrors1.png)  
   
 Some subtitles have a lot of errors (often these subtitles are created using OCR software).  
 "Tools -> Fix common errors" provides an easy way to fix a lot of these errors.  
 The first window shows a list of actions to fix, just tick the check boxes you want fixed and click "Next".  
   
   
-![Fix common errors](/assets/SubtitleEdit/help_fixcommonerrors2.png)  
+![Fix common errors](/gfx/help_fixcommonerrors2.png)  
   
 Now you can choose which fixes to apply. Selected fixes are will be remembered in future sessions.  
 The log tab gives an overview of what will be done - and what was not possible to fix.  
@@ -572,7 +572,7 @@ For people with perfect hearing (and no noisy kids) these texts can be annoying 
 SE offers many options for configuring removal of text for HI and in the preview you can see what changes will be made - and skip any wrongly made removals.  
 You can also remove [interjections](https://en.wikipedia.org/wiki/Interjection) and you can maintain your own interjections. Interjections are not case sensitive and SE will try to remove them by descending text length.  
   
-![Remove text for hearing impaired](/assets/SubtitleEdit/remove_text_for_hi.png)  
+![Remove text for hearing impaired](/gfx/remove_text_for_hi.png)  
   
 
 * * *
@@ -585,7 +585,7 @@ Only English dictionary is included, but you can easily find more dictionaries v
 If you download [Open Office 3.x dictionaries](http://extensions.services.openoffice.org/en/dictionaries) with the extension .oxt, then rename to .zip, and then unpack the .dic file and the .aff file to the Subtitle Edit _Dictionary_ folder.  
   
 The spell check will show this window when it encounters an unknown word:  
-![spell check](/assets/SubtitleEdit/spell_check.png)  
+![spell check](/gfx/spell_check.png)  
 **_Edit whole text_** will enable editing of the whole text (and not only the current word) - for this one sub only.  
 **_Change all / Use always_** will change current word in always - also in future works (saved in the OCR Fix Replace list - take a look at Dictionaries/eng\_OCRFixReplaceList.xml to learn more about this file).  
 **_Change / Use_** will change current word just this once.  
@@ -606,7 +606,7 @@ Import/OCR image based subtitles - like DVD Sub/idx or Blu-ray sup
   
 If you open an image based subtitle like Blu-ray sup or sub/idx (vobsub) this screen will come up:  
   
-![Import/ocr image based subtitles](/assets/SubtitleEdit/help_importvobsub.png)  
+![Import/ocr image based subtitles](/gfx/help_importvobsub.png)  
   
   
 The list view now contains empty subtitle text lines with only timestamps. You can enter the text manually, but it's much easier to let one of the OCR engines do the work:
@@ -619,18 +619,18 @@ The list view now contains empty subtitle text lines with only timestamps. You c
     You can find additional language data files at [Github](https://github.com/tesseract-ocr/tesseract/wiki/Data-Files#data-files-for-version-302). These Tesseract dictionary files need to be unpacked to \[Subtitle Edit folder\]\\Tesseract302\\tessdata.  
       
     If you right-click in the list view, you will get a context menu with these options:  
-    ![OCR list view context menu](/assets/SubtitleEdit/ocr_context_menu.png)  
+    ![OCR list view context menu](/gfx/ocr_context_menu.png)  
     **_Import text with matching time codes..._** can be used to continue working on an earlier created subtitle.  
     **_Save subtitle image as..._** allows for saving current image as either png, gif, bmp, or tiff.  
     **_Save all images with html index_** display all subtitles images in an html page - for easy proof reading.  
       
     OCR via Tesseract will work best if you also have [spell check](#spellcheck) dictionaries.  
-    ![OCR dictionary](/assets/SubtitleEdit/ocr_dictionary.png)  
+    ![OCR dictionary](/gfx/ocr_dictionary.png)  
     **_prompt for unknown words_** and **_Try to guess unknown words_** will only work if a dictionary is available. **_Fix OCR errors_** will also benefit from a dictionary.  
     If you think Tesseract is too slow, you could set the spell check dictionary to "None" for better performance and then fix errors e.g. via "Fix common errors" plus spell check afterwards.  
       
     The **_prompt for unknown words_** will look like this (window is re-sizable):  
-    ![OCR spell check](/assets/SubtitleEdit/ocr_spell_check.png)  
+    ![OCR spell check](/gfx/ocr_spell_check.png)  
     **_Edit whole text_** will enable editing of the whole text (and not only the current word) - for this one sub only.  
     **_Change all / Use always_** will change current word always - also in future works (saved in the OCR Fix Replace list - take a look at Dictionaries/eng\_OCRFixReplaceList.xml to learn more about this file).  
     **_Change / Use_** will change current word just this once.  
@@ -673,7 +673,7 @@ Edit Blu-ray sup/TS-images/BdnXml image based subtitles
 In **File - Import - Blu-ray (.sup) subtitle file for edit** it's possible to edit and re-save while keeping existing positions.  
 You can change color/size/alpha/position/forced/sync/duration of lines/insert and even replace a whole image and much more:  
   
-![Edit Blu-ray sup screenshot](~/assets/SubtitleEdit/se-sup-edit.png)  
+![Edit Blu-ray sup screenshot](~/gfx/se-sup-edit.png)  
   
 In the preview to the right, you can see subtitles in a black box (the black box only shows the size of the image).  
 The subtitle preview box can be moved with the mouse or via the position number up/down controls.  
@@ -693,9 +693,9 @@ Settings
 
 In Settings you can adjust how Subtitle Edit will behave, so it's pretty important to take a look at these settings - especially single line maximum length and maximum characters per second as these settings will be used throughout all functionality, like "Fix common error" and other tools like syntax coloring in the main window list view (see the "Syntax coloring" settings for adjustments).  
   
-![Settings](/assets/SubtitleEdit/help_settings.png)  
+![Settings](/gfx/help_settings.png)  
   
-The most important rules are grouped in a "Profile" - you can use the default, choose one of the pre-defined profiles, or define your own. ![Settings - profiles](/assets/SubtitleEdit/help_settings_profile.png)  
+The most important rules are grouped in a "Profile" - you can use the default, choose one of the pre-defined profiles, or define your own. ![Settings - profiles](/gfx/help_settings_profile.png)  
   
   
 
@@ -781,7 +781,7 @@ Select all lines
   
 Shortcuts are configurable via _Options -> Settings -> Shortcuts_ (let me know if you need more):  
   
-![Configurable shortcuts](/assets/SubtitleEdit/shortcuts.png)  
+![Configurable shortcuts](/gfx/shortcuts.png)  
 Note: Shortcuts in menus has a stricter validation than hidden shortcuts (e.g. \[Shift+N\] is not allowed in a menu but is fine for a hidden shortcut).  
   
 
@@ -794,7 +794,7 @@ Settings - Video player
 -----------------------
 
 In the "Video player" section you can choose which video player to use inside SE.  
-![Settings - video player](/assets/SubtitleEdit/help_settings_video.png)  
+![Settings - video player](/gfx/help_settings_video.png)  
 Currently "mpv" is recommended as it has precise seeking and on-video-preview.  
 Click on "Download mpv lib" to download and use "mpv".  
   
@@ -814,7 +814,7 @@ Settings - Tools
 
 Here you can setup/tweak different tools:  
   
-![Settings - Font](/assets/SubtitleEdit/help_settings_tools.png)  
+![Settings - Font](/gfx/help_settings_tools.png)  
   
 If you often use "Fix common errors" and always use the same fix rules, then enable "Skip step one" to save time.  
   
@@ -832,11 +832,11 @@ Settings - Appearance
 ---------------------
 
 Here you can set font and other UI properties for the SE interface.  
-![Settings - Font](/assets/SubtitleEdit/help_settings_font.png)  
+![Settings - Font](/gfx/help_settings_font.png)  
   
-**Use syntax coloring** will enable syntax coloring of html tags and optional spelling errors: ![Settings - Appearance - Text box syntax coloring](/assets/SubtitleEdit/help_settings_font_textbox.png)  
+**Use syntax coloring** will enable syntax coloring of html tags and optional spelling errors: ![Settings - Appearance - Text box syntax coloring](/gfx/help_settings_font_textbox.png)  
   
-**Dark theme / Dark mode** will switch color theme to something like this: ![Settings - Appearance - Dark theme](/assets/SubtitleEdit/help_settings_font_darktheme.png)  
+**Dark theme / Dark mode** will switch color theme to something like this: ![Settings - Appearance - Dark theme](/gfx/help_settings_font_darktheme.png)  
   
   
 
@@ -853,7 +853,7 @@ You can add a bookmark for a line by activating one of the "Toggle bookmark" sho
 In the "Add bookmark with comment" window you can enter a comment to the bookmark (use Shift+Enter for more than one line).  
 Bookmarks are saved in a separate file. If you're working on "video.srt", then SE will save the bookmarks in a file called "Video.srt.SE.bookmarks", so you can actually email both files to other people using SE, and they can also see the bookmarks.  
   
-![Bookmark](/assets/SubtitleEdit/bookmark.png)  
+![Bookmark](/gfx/bookmark.png)  
   
 Tip 1: You can right click on the bookmark image left of the text box to get a context menu.  
 Tip 2: You can double click on the yellow text label to edit the text.  
@@ -878,7 +878,7 @@ The preview will update if the drawing source file is changed, e.g. if you edit 
   
 **Important note**: Background box should be made when finishing a subtitle. Box sizes will reflect the text at the time of generation!  
   
-![Generate background box](/assets/SubtitleEdit/assa_bg_box.png)  
+![Generate background box](/gfx/assa_bg_box.png)  
   
   
 
@@ -911,16 +911,16 @@ Networking - online collaboration
 If you and a few friends want to translate the same subtitle at the same time over the internet, then do try the "Networking" feature.  
 First load the subtitle you want translated (and optionally the original subtitle). Then choose "Start new session" in the "Networking" menu:  
   
-![Start network session](/assets/SubtitleEdit/NetworkingStart.png)  
+![Start network session](/gfx/NetworkingStart.png)  
   
 The "session key" is your subtitle id (can be any text you like) - other people need this in order to join (via menu Networking -> Join session) your session.  
 The "username" will be displayed when updating/inserting/deleting lines and in the chat window  
-The "webservice url" points to a small server program hosting the session (I initially developed this via direct p2p, but decided to use a webservice instead, as it works much better with stuff like firewalls). [Source code for this webservice is available](/assets/SubtitleEdit/SeNetworkingServiceCore.zip) (also for [dotnet 6](/assets/SubtitleEdit/SeNet6.zip) and [dotnet 7](/assets/SubtitleEdit/SeNet6.zip)) and should make it easy to use your own server for hosting the networking session.  
+The "webservice url" points to a small server program hosting the session (I initially developed this via direct p2p, but decided to use a webservice instead, as it works much better with stuff like firewalls). [Source code for this webservice is available](/gfx/SeNetworkingServiceCore.zip) (also for [dotnet 6](/gfx/SeNet6.zip) and [dotnet 7](/gfx/SeNet6.zip)) and should make it easy to use your own server for hosting the networking session.  
   
   
 Subtitle Edit running in networking mode below. In the "User/action" column in the list view you can follow the translation progress - this might sparkle some synergistic effect!  
   
-![Subtitle Edit running in networking mode](/assets/SubtitleEdit/networking.jpg)  
+![Subtitle Edit running in networking mode](/gfx/networking.jpg)  
   
 
 * * *
@@ -956,7 +956,7 @@ Some of the batch convert options have their own settings, e.g. "Merge short lin
   
 Transport streams (.ts/.m2ts) can only be converted to Blu-ray sup files - check the **TS settings** if you want to resize or do re-positioning.  
   
-![Batch convert UI](/assets/SubtitleEdit/batch_convert.png)  
+![Batch convert UI](/gfx/batch_convert.png)  
   
 
 * * *
@@ -970,7 +970,7 @@ Audio to text
   
 **Audio to text (Whisper)** is a new experimental speech recognition framework that works on around 100 languages.  
   
-![Audio to text](/assets/SubtitleEdit/audio_to_text_whisper.png)  
+![Audio to text](/gfx/audio_to_text_whisper.png)  
   
 You can use one of these Whisper versions:
 
@@ -1011,7 +1011,7 @@ The resulting quality depends on how clear the speech is and how good the model 
 Batch conversion is available and you can also use **Audio to text** on selected lines in the list view via context menu (right click).  
   
   
-![Audio to text](/assets/SubtitleEdit/audio_to_text.png)  
+![Audio to text](/gfx/audio_to_text.png)  
   
 **Audio to text (Vosk/Kaldi)** requires [libvosk](https://github.com/alphacep/vosk-api) and [audio to text models](https://alphacephei.com/vosk/models) as well as [FFmpeg](https://ffmpeg.org).  
   
@@ -1021,7 +1021,7 @@ libvosk, FFmpeg and models download should be handled by the SE UI, and the fold
 *   libvosk: \[SE Data folder\]\\Vosk (should contain libvosk.dll etc.)
 *   models: \[SE Data folder\]\\Vosk\\\[model name\] (should contain final.mdl in the "am" folder)
 
-![Audio to text](/assets/SubtitleEdit/audio_to_text_folders.png)  
+![Audio to text](/gfx/audio_to_text_folders.png)  
   
 On Linux you need to [install vosk](https://github.com/SubtitleEdit/subtitleedit/issues/6071) with "pip3 install vosk" and setup a symlink file like "sudo ln -s /usr/local/lib/python3.8/dist-packages/vosk/libvosk.so ~/Downloads/SubtitleEdit/libvosk.so".  
   
@@ -1142,7 +1142,7 @@ Even though Subtitle Edit is a Windows program, it runs (mostly) well on Linux v
 Note that a dotnet [CLI version](https://github.com/SubtitleEdit/subtitleedit-cli) is also available (no mono).  
   
   
-![SE running on Linux](/assets/SubtitleEdit/se_on_linux.png)  
+![SE running on Linux](/gfx/se_on_linux.png)  
   
 Download the portable version of SE (and not the installer).  
   

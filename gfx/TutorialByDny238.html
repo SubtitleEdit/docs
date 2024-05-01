@@ -1,0 +1,157 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Syncing with Subtitle Edit</title> <style type="text/css" media="print">.hide{display:none}</style></head>
+<body style="margin:0;padding:0"><div><p align="center"><font size="4" face="Times New Roman"><b>Syncing Subtitles with Subtitle Edit</b></font></p>
+<p align="center"><font size="3" face="Times New Roman">by dny238</font><br /></p>
+<p><font size="3" face="Times New Roman"><b>Summary</b></font></p>
+<p>      <font size="3" face="Times New Roman">There 
+are two major styles of sync that will be covered in this guide. First, 
+we&#39;ll cover how to sync a file produced by the capture of a Closed Captioned 
+broadcast (CC Sync). These files inherently have some offset consistency. 
+However, they typically need to have the captions from commercials removed.</font></p>
+<p>      <font size="3" face="Times New Roman">The 
+second style of sync covered by this guide is a more difficult process 
+of syncing a file which has very little internal consistency, meaning 
+every line needs to be corrected individually (Random Sync). There are 
+several other situations you may encounter, including files which have 
+a frame rate issues and appear to drift consistently, but this guide 
+won&#39;t cover those issues yet.  </font></p>
+<p>      <font size="3" face="Times New Roman">There 
+is also an activity of &#39;Correcting&#39; the subtitle. This process looks 
+to corrected a variety of issues with the text: Spelling, Capitalization, 
+Punctuational, Formatting, etc. This guide won&#39;t fully cover the process 
+of correction either.</font> <br></p>
+<p></p>
+<p><font size="3" face="Times New Roman"><b>Prerequisites</b></font></p>
+<ol type="1">
+  <li><font size="3" face="Times New Roman">Get a copy of Subtitle 
+  Edit (SE) from </font><a href="http://nikse.dk" target="_blank"><font color="#000080" size="3" face="Times New Roman"><u>http://nikse.dk</u></font></a></li>
+  <li><font size="3" face="Times New Roman">Get a subtitle you 
+  wish to sync</font></li>
+  <li><font size="3" face="Times New Roman">Get a video you 
+  wish to sync against</font></li>
+  <li><font size="3" face="Times New Roman">Rename the subtitle 
+  to match the name of the video, only the extension should be different. 
+  (Video.avi, Video.srt) This will help SE find the proper video automatically. </font></li>
+  <li><font size="3" face="Times New Roman">Save the subtitle 
+  in the same directory as the video and open it with SE. </font></li>
+</ol>
+<p></p>
+<p><font size="3" face="Times New Roman"><b>CC Sync</b></font></p>
+<ol type="1">
+  <li><font size="3" face="Times New Roman">Before you correct 
+  start to correct the sync, it&#39;s best to run the &#39;Fix common errors...&#39; 
+  tool. In addition to a number of style improvements, this will correct 
+  any overlapping problems in the subtitle and make sure none of the lines 
+  are too quick. These overlaps can be very confusing when you&#39;re getting 
+  started. </font></li>
+  <li><font size="3" face="Times New Roman">Now you are ready 
+  to start the sync. Double click the first line of the file. This will 
+  open the &#39;Create/Adjust lines&#39; view. </font></li>
+  <li><font size="3" face="Times New Roman">Highlight and Read 
+  the first line of the subtitle</font></li>
+  <li><font size="3" face="Times New Roman">Hit the &#39;Play/Pause&#39; 
+  button to start the video preview.</font></li>
+  <li><font size="3" face="Times New Roman">Once you hear the 
+  the first line, hit &#39;&lt; 3 Seconds&#39; to give yourself a chance get it 
+  right.</font></li>
+  <li><font size="3" face="Times New Roman">Hit &#39;Play/Pause&#39; 
+  right as the line starts</font></li>
+  <li><font size="3" face="Times New Roman">Hit &#39;&lt; ½ Seconds&#39; 
+  to position the video &#39;head&#39; right before your line. </font></li>
+  <li><font size="3" face="Times New Roman">Make sure you&#39;ve 
+  properly highlighted the appropriate line in the list on the right. </font></li>
+  <li><font size="3" face="Times New Roman">Hit &#39;Set Start and 
+  offset the rest&#39;. This button with move the start time of the highlighted 
+  line to match the position of the video play head. The remaining lines 
+  in the file are adjusted by whatever amount the highlighted line was 
+  adjusted by. The net result is that if you timed it right, you&#39;ve now 
+  synced this file up to the first commercial. </font></li>
+  <li><font size="3" face="Times New Roman">Hit &#39;Play/Pause&#39; 
+  or double click the line in the list to start the video playing from 
+  the position. If the offset appears to be corrected let the video roll. </font></li>
+  <li><font size="3" face="Times New Roman">After reviewing 
+  a few lines, if there aren&#39;t any issues hit the &#39;&gt; 1 minute&#39; to advance 
+  your position in the file and preview a few lines. If there are consistent 
+  offset issues, back up until you don&#39;t have the problem any more and 
+  offset the lines as necessary by repeating steps 3-10.</font></li>
+  <li><font size="3" face="Times New Roman">Eventually you&#39;ll 
+  encounter the commercial break in the subtitle file, the lines of dialog 
+  in the preview won&#39;t match the video at all. Back the video up until 
+  you find where the first line of dialog starts again (after where the 
+  commercials were removed). </font></li>
+  <li><font size="3" face="Times New Roman">Highlight the first 
+  line of the commercials, scroll down until you read that first line 
+  of dialog you heard in step 10. Shift click to highlight the entire 
+  commercial block and hit delete to remove them. </font></li>
+  <li><font size="3" face="Times New Roman">Repeats steps 2-7 
+  to get the subtitle back in sync from here on down. </font></li>
+  <li><font size="3" face="Times New Roman">This process of 
+  sync and review until the entire file is corrected</font></li>
+  <li><font size="3" face="Times New Roman">Give yourself credit 
+  by inserting two new subtitle lines, one towards the start and one at 
+  the end. We recommend something like synced by dny238 / </font><a href="http://www.addic7ed.com/" target="_blank"><font color="#000080" size="3" face="Times New Roman"><u>www.addic7ed.com</u></font></a></li>
+  <li><font size="3" face="Times New Roman">Close the &#39;Create 
+  / Adjust lines&#39; dialog.</font></li>
+  <li><font size="3" face="Times New Roman">Rerun the &#39;Fix 
+  common errors...&#39; to reconcile any overlaps you may have created lining 
+  things up. </font></li>
+  <li><font size="3" face="Times New Roman">Save the file. </font></li>
+  <li><font size="3" face="Times New Roman">You are done! Upload 
+  the video to the site and move on to the next sync.</font></li>
+  <li><font size="3" face="Times New Roman">If you have a few 
+  extra minutes considering doing some quick corrections. Typically a 
+  proper corrector will follow you, but depending on your work load there 
+  are a few quick things you can do to make your product cleaner. </font></li>
+  <li><font size="3" face="Times New Roman">Start by using 
+  &#39;Change case&#39;, this will attempt to fix capitalization issues in the 
+  file. This is quick. </font></li>
+  <li><font size="3" face="Times New Roman">Next run a spell 
+  check, a more time consuming process. In addition to typos and glitches, 
+  it&#39;s common to fine more names during spell check which were missed. 
+  Correct them on the line supplied and add them to the names file to 
+  save yourself time in the future. </font></li>
+</ol>
+ <br>
+<p><font size="3" face="Times New Roman"><b>Random Sync</b></font></p>
+<p><font size="3" face="Times New Roman">This process is inherently 
+slower than CC Sync because every line is potentially wrong. Hopefully, 
+we can at least get close to realtime sync using the process described 
+below. The concept here is that most dialog follows immediately after 
+the line before it, so all you need to do is tell the program when each 
+line ends and it&#39;ll automatically set the start time on the subsequent 
+line. Said again more simply, you watch the video, at the end of each 
+line hit control-e. The program will set the end of that line, and move 
+itself to the next line. Repeat. </font> <br></p>
+<ol type="1">
+  <li><font size="3" face="Times New Roman">Double click the 
+  first line of dialog to open the &#39;Create/adjust lines&#39;. </font></li>
+  <li><font size="3" face="Times New Roman">Highlight the first 
+  line in the subtitle. </font></li>
+  <li><font size="3" face="Times New Roman">Hit &#39;Play/Pause&#39; 
+  to start the video</font></li>
+  <li><font size="3" face="Times New Roman">Once you hear the 
+  line start, pause the video, back it up and hit &#39;Set start and offset 
+  the rest&#39; as described above, or use &#39;Set start time&#39; or Cntl-S to set 
+  the start position.  This button doesn&#39;t adjust the end time, so 
+  use it cautiously, you&#39;re committing to adjusting the lines end time 
+  manually too. </font></li>
+  <li><font size="3" face="Times New Roman">Back the video up 
+  3 seconds to give yourself time to review your work and get ready.</font></li>
+  <li><font size="3" face="Times New Roman">After the video 
+  plays the dialog on your line, hit &#39;Set end time&#39; or preferably Cntl-E 
+  right as the dialog on the current line ends. This sets the end time 
+  of the current line. It then advances the selection to the next line 
+  and sets it&#39;s start position. </font></li>
+  <li><font size="3" face="Times New Roman">If the dialog follows 
+  immediately, you&#39;re all set. If not hit, Cntl-S repeatedly until right 
+  before the dialog starts again. This takes some practice and you can 
+  pause if necessary, adjust the play head and hit the button at exactly 
+  the right position, then continue. </font></li>
+  <li><font size="3" face="Times New Roman">Let the video play 
+  and hit Cntl-E at the end of the next line. Repeat for each line of 
+  the file. </font></li>
+  <li><font size="3" face="Times New Roman">Most of the time 
+  you can sync a file at near real-time. </font></li>
+</ol>
+</div>
+</body></html>

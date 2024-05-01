@@ -1,0 +1,13 @@
+﻿table.ShortCutsTable td, th
+{
+	border: dashed 1px Gray;	
+	text-align: left;
+	padding: 4px;	
+}
+
+table.ShortCutsTable
+{
+	font-size: larger;
+	border: dashed 1px Gray;
+	border-collapse: collapse;
+}
