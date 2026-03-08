@@ -1,3 +1,9 @@
+Docs are here now: https://github.com/SubtitleEdit/subtitleedit/tree/main/docs
+
+
+------------------
+
+
 Subtitle Edit Help/FAQ
 ========
 
